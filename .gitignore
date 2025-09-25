@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# --- Virtual Environments ---
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# --- Logs and Databases ---
+*.log
+*.db
+*.sqlite3
+instance/
+
+# --- OS ---
+Thumbs.db
+
+# --- Docker (опционально, если не коммитите override) ---
+docker-compose.override.yml
+
+# --- Render / Production ---
+# (ничего не нужно — всё управляется через переменные окружения)
