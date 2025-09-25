@@ -2,7 +2,8 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 import os
 from dotenv import load_dotenv
-
+from .routes import bp
+app.register_blueprint(bp)
 load_dotenv()
 
 db = SQLAlchemy()
