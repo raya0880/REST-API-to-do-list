@@ -32,8 +32,7 @@ instance/
 # --- OS ---
 Thumbs.db
 
-# --- Docker (опционально, если не коммитите override) ---
+# --- Docker ---
 docker-compose.override.yml
 
 # --- Render / Production ---
-# (ничего не нужно — всё управляется через переменные окружения)
